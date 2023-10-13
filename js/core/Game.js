@@ -4,7 +4,8 @@ class Game {
 
         this.points = [];
         this.isRunning = false;
-        this.stats = [0, 0, 0];
+        this.stats = [0, 0, 0, 0, 0];  // Add additional entries for Spock and Lizard
+
 
         EventEmitter.on("collide", (c1, c2) => {
 
